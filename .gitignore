@@ -218,3 +218,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- Dataset ---
+data/MNIST/
+data/raw/
+
+# --- Training outputs ---
+*.pt
+*.pth
+*.h5
+*.npz
+
+# --- Vivado generated files ---
+*.jou
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+
+# --- Simulation outputs ---
+*.vcd
+*.wdb
+xsim.dir/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
